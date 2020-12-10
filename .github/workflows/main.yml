@@ -31,4 +31,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge 
     - name:  Run surge
-      run: surge ./build Signupform.surge.sh --token ${{ secrets.SIGNUP }}
+      run: surge ./build signupformtypescriptformik.surge.sh --token ${{ secrets.SIGNUP }}
